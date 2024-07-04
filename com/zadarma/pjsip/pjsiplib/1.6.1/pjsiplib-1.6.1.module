@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.zadarma.pjsip",
+    "module": "pjsiplib",
+    "version": "1.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "pjsiplib-1.6.1.aar",
+          "url": "pjsiplib-1.6.1.aar",
+          "size": 7798670,
+          "sha512": "a6a7173b89c234d04e02cd82ccbd30eacc3ecc8b5251d9ce8d6dd47e7b56d1688c7c7fdc2a7bac6018fe579f4eab49d86a4320b959ef1235b7a19b99268334f2",
+          "sha256": "cf43dd2907f4c55c1401cc95d7d900f4e5850ffabb844dc1d390dc7846479450",
+          "sha1": "0f3f2c5a68dcbe81c5ed8113df2758743b4102e8",
+          "md5": "6a4e12a605cb7edf8b946fd446daf3a1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pjsiplib-1.6.1.aar",
+          "url": "pjsiplib-1.6.1.aar",
+          "size": 7798670,
+          "sha512": "a6a7173b89c234d04e02cd82ccbd30eacc3ecc8b5251d9ce8d6dd47e7b56d1688c7c7fdc2a7bac6018fe579f4eab49d86a4320b959ef1235b7a19b99268334f2",
+          "sha256": "cf43dd2907f4c55c1401cc95d7d900f4e5850ffabb844dc1d390dc7846479450",
+          "sha1": "0f3f2c5a68dcbe81c5ed8113df2758743b4102e8",
+          "md5": "6a4e12a605cb7edf8b946fd446daf3a1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pjsiplib-1.6.1-sources.jar",
+          "url": "pjsiplib-1.6.1-sources.jar",
+          "size": 270800,
+          "sha512": "4f2e6b4aa4dbe3ac7e95a466b595c76b54cae6cd8a6ef7f66a7cdc2f47e23ba88e4a660464465aed7e89102cc12557efee414895a665ac602d6e01fb445151a5",
+          "sha256": "5e3c345d62f662b8c4c1047d6f57c8a590fd5f56ea70149e07fb94934250a152",
+          "sha1": "63514828eb2ce8fe9c775393cbef9d6b8b790ef3",
+          "md5": "be755015f9fdfea54c26dc6c871dc039"
+        }
+      ]
+    }
+  ]
+}
