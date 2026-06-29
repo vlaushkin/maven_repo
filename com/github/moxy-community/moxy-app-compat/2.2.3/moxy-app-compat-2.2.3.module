@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.moxy-community",
+    "module": "moxy-app-compat",
+    "version": "2.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.moxy-community",
+          "module": "moxy",
+          "version": {
+            "requires": "2.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "moxy-app-compat-2.2.3.aar",
+          "url": "moxy-app-compat-2.2.3.aar",
+          "size": 4554,
+          "sha512": "48e0cb16a917e44e600ff8698b5e30d63a3ee7c01a8456adf1fdae27421d0bee62d935046b35ede8908daecb0b0bd8b903c83c3c6887d2b6c06bfd7ea580e26b",
+          "sha256": "71724be1f71fcd79ea6c77d1767df9ae2ba59c0b31a055131a1480858b027ad9",
+          "sha1": "9820440656b891f132fef382286790f3241fb0c2",
+          "md5": "4b504b60dff23932c9ae613b109dcece"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.moxy-community",
+          "module": "moxy",
+          "version": {
+            "requires": "2.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "moxy-app-compat-2.2.3.aar",
+          "url": "moxy-app-compat-2.2.3.aar",
+          "size": 4554,
+          "sha512": "48e0cb16a917e44e600ff8698b5e30d63a3ee7c01a8456adf1fdae27421d0bee62d935046b35ede8908daecb0b0bd8b903c83c3c6887d2b6c06bfd7ea580e26b",
+          "sha256": "71724be1f71fcd79ea6c77d1767df9ae2ba59c0b31a055131a1480858b027ad9",
+          "sha1": "9820440656b891f132fef382286790f3241fb0c2",
+          "md5": "4b504b60dff23932c9ae613b109dcece"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "moxy-app-compat-2.2.3-sources.jar",
+          "url": "moxy-app-compat-2.2.3-sources.jar",
+          "size": 2661,
+          "sha512": "7cede1d3f40e027c3c0b541ad13b239df395c1bdeb362d2db422c789072c71f3235515017741f62aec97dc602fbed76a2ebeec33c66c2189ac4be117666e840f",
+          "sha256": "792a0684e64cbb303e1ad37bcc63a9d3687ccfaebb079d164026005e290cbab3",
+          "sha1": "4e4a9dacdbd2ce8e29177f0c29d238065b7c3882",
+          "md5": "698cbfa3b8730dff2b275f0aea5b4e5c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "moxy-app-compat-2.2.3-javadoc.jar",
+          "url": "moxy-app-compat-2.2.3-javadoc.jar",
+          "size": 269377,
+          "sha512": "ce5f6ff6b3e28952200513883c6820636a84604f6a4d4dd7681d13f69ef22d0fcc396f8a49f1995902b0971bdf60115f322a4e5359f287e5fbb84e1cdc503954",
+          "sha256": "a0ecdc824503b45768804f8da022d059fd0834c445604b60edc7b1d255f171d3",
+          "sha1": "82ee34983f5d53042abc666ac3d76f2810a917d9",
+          "md5": "25d4e7927a64c95f1313f9e3202b9a85"
+        }
+      ]
+    }
+  ]
+}

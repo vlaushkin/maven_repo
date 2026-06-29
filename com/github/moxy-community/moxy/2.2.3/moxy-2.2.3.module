@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.moxy-community",
+    "module": "moxy",
+    "version": "2.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "moxy-2.2.3.jar",
+          "url": "moxy-2.2.3.jar",
+          "size": 33928,
+          "sha512": "764e2967dd4a05d581766326474d4318763e6a0f0c91af74f22b1b5dbc655718ff72fea4641f376f651c6df181945a6f2ff1d5781516e263ab58e7fc8f1d6c72",
+          "sha256": "a346950233c5ff0d28c2d7c8fecd1c567e2a5904bc95e0960771b9581b00b35f",
+          "sha1": "147969764e8c5f3d443c5acc9b1b129570096d5c",
+          "md5": "1472f303987babffeb7c866f3d8d6a88"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "moxy-2.2.3.jar",
+          "url": "moxy-2.2.3.jar",
+          "size": 33928,
+          "sha512": "764e2967dd4a05d581766326474d4318763e6a0f0c91af74f22b1b5dbc655718ff72fea4641f376f651c6df181945a6f2ff1d5781516e263ab58e7fc8f1d6c72",
+          "sha256": "a346950233c5ff0d28c2d7c8fecd1c567e2a5904bc95e0960771b9581b00b35f",
+          "sha1": "147969764e8c5f3d443c5acc9b1b129570096d5c",
+          "md5": "1472f303987babffeb7c866f3d8d6a88"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "moxy-2.2.3-sources.jar",
+          "url": "moxy-2.2.3-sources.jar",
+          "size": 24099,
+          "sha512": "11d1e8ed9a4d94173123daad34cf79b0e1e0cdd2b897b3b7c4948360a639038f409ef03b3f71fc21e56b3c814239827a0d3e65a3a19c982ac90a4615f5f07158",
+          "sha256": "c700824bbc07228df5e4f8e1ab8c484539850010568d94f6f614e68370d3cfae",
+          "sha1": "dad1fa4cc875b4fd9706d3680ea6bbf30144dd9c",
+          "md5": "8c00d391c20add88cf1a6c6752ffb321"
+        }
+      ]
+    }
+  ]
+}

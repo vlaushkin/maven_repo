@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.moxy-community",
+    "module": "moxy-androidx",
+    "version": "2.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.moxy-community",
+          "module": "moxy",
+          "version": {
+            "requires": "2.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "moxy-androidx-2.2.3.aar",
+          "url": "moxy-androidx-2.2.3.aar",
+          "size": 4806,
+          "sha512": "d19ea0ff69507b52b4c45b151c45f788f5a5696ef73fb313642eb4399c7a5c90ea4ebf4f332e8be7c91ef116f6f54ad408aa4cdbf2273a9bfdb89659fa7821ac",
+          "sha256": "cfeef69c9706aae38c80268758d2a90a84138f2bfeb7b0c2239d980186188a46",
+          "sha1": "1e7a4104c05fbed09ea74eaedc7fe78b308c8a2d",
+          "md5": "20b9ff0a66845feaa68b6e5f8dead0ec"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.moxy-community",
+          "module": "moxy",
+          "version": {
+            "requires": "2.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "moxy-androidx-2.2.3.aar",
+          "url": "moxy-androidx-2.2.3.aar",
+          "size": 4806,
+          "sha512": "d19ea0ff69507b52b4c45b151c45f788f5a5696ef73fb313642eb4399c7a5c90ea4ebf4f332e8be7c91ef116f6f54ad408aa4cdbf2273a9bfdb89659fa7821ac",
+          "sha256": "cfeef69c9706aae38c80268758d2a90a84138f2bfeb7b0c2239d980186188a46",
+          "sha1": "1e7a4104c05fbed09ea74eaedc7fe78b308c8a2d",
+          "md5": "20b9ff0a66845feaa68b6e5f8dead0ec"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "moxy-androidx-2.2.3-sources.jar",
+          "url": "moxy-androidx-2.2.3-sources.jar",
+          "size": 2764,
+          "sha512": "c947562612245f831ab0f41637afa62e6a2169e6994b0415869609c96856c14cf53b5c6156b6d5925b5383a5d7e916661faf1be1a8d40f2e4627cd951dc0d453",
+          "sha256": "6d8446ff8b553dda29f06511a3937eeb3e47cdcde1bb15f7ca936c47e5681854",
+          "sha1": "ecb8cdc71dc83a8cafabe5218d7e8da450467cb1",
+          "md5": "0a7c90602a305151eafe969cf9b96ec5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "moxy-androidx-2.2.3-javadoc.jar",
+          "url": "moxy-androidx-2.2.3-javadoc.jar",
+          "size": 270187,
+          "sha512": "efcf0ed13d86a5cc6011d1112f8e985ef39dc7d0000b34d2812469903d60afea1471b47e81608731327ff096dd6c5495b112ba109b39b4c8276a95b9866a10c9",
+          "sha256": "68734200737a7eaa50199fd9794a9f041cb7b92b3d42ab1d1424950b9d8cc0d4",
+          "sha1": "0329c578c8ee2cf5cfe7758607d8dace710164a9",
+          "md5": "f5c34817a238bcf102cdde40075e806d"
+        }
+      ]
+    }
+  ]
+}

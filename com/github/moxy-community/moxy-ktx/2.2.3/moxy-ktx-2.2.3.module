@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.moxy-community",
+    "module": "moxy-ktx",
+    "version": "2.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.moxy-community",
+          "module": "moxy",
+          "version": {
+            "requires": "2.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "moxy-ktx-2.2.3.jar",
+          "url": "moxy-ktx-2.2.3.jar",
+          "size": 6785,
+          "sha512": "9fde26a4569b578aa939e4a206046b021a739e7a76568201a024dc6d50f524f0ef0cf14d2e1df0171f13b357eb1150069b859aa50c45bce55edfc5af7a461ac1",
+          "sha256": "a4c48a6f4353ee52452c8370529dcc55f8c875718f9047f20b10370ac113c122",
+          "sha1": "1fd90acc7ac0e010830a1119664a535160c1b6e7",
+          "md5": "2d513b579a247aed16b0b2a9544004bf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.moxy-community",
+          "module": "moxy",
+          "version": {
+            "requires": "2.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "moxy-ktx-2.2.3.jar",
+          "url": "moxy-ktx-2.2.3.jar",
+          "size": 6785,
+          "sha512": "9fde26a4569b578aa939e4a206046b021a739e7a76568201a024dc6d50f524f0ef0cf14d2e1df0171f13b357eb1150069b859aa50c45bce55edfc5af7a461ac1",
+          "sha256": "a4c48a6f4353ee52452c8370529dcc55f8c875718f9047f20b10370ac113c122",
+          "sha1": "1fd90acc7ac0e010830a1119664a535160c1b6e7",
+          "md5": "2d513b579a247aed16b0b2a9544004bf"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "moxy-ktx-2.2.3-sources.jar",
+          "url": "moxy-ktx-2.2.3-sources.jar",
+          "size": 2060,
+          "sha512": "3bc7e574492a429033af25f1ddee331345c95ea852409ab3ae180a38704dfcd8da65c2a704969db00b526e1542d4938506c2b085c536c91c4223979f5ca7fb10",
+          "sha256": "612277c255cfd9928112e1c028ff8de4884754dff37c4471d07eda995bccaef8",
+          "sha1": "f02f032f53edc3c3733475c517cb0815616ef1c4",
+          "md5": "5a6679cc19406153d8b6c198acd388c2"
+        }
+      ]
+    }
+  ]
+}

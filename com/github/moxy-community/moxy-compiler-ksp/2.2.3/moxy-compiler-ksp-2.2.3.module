@@ -1,0 +1,114 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.moxy-community",
+    "module": "moxy-compiler-ksp",
+    "version": "2.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "moxy-compiler-ksp-2.2.3.jar",
+          "url": "moxy-compiler-ksp-2.2.3.jar",
+          "size": 67857,
+          "sha512": "22fbf9439f0df3a66e8ec3350e1c957b9518a8bd7343f4020cc170fbb3374e76f4d2e99b41bdf598df43fa3660bc610d9e42967c0781586d99983c79b16500ce",
+          "sha256": "109db44106f2e8c245b8f7957794b20632271494d502593865c76b96ad759cb7",
+          "sha1": "bcf180c5a41ea7cb3b9795ac8c3bb3d03e305114",
+          "md5": "a8c882528550ae67731452cfbb230911"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.moxy-community",
+          "module": "moxy",
+          "version": {
+            "requires": "2.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "2.3.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "moxy-compiler-ksp-2.2.3.jar",
+          "url": "moxy-compiler-ksp-2.2.3.jar",
+          "size": 67857,
+          "sha512": "22fbf9439f0df3a66e8ec3350e1c957b9518a8bd7343f4020cc170fbb3374e76f4d2e99b41bdf598df43fa3660bc610d9e42967c0781586d99983c79b16500ce",
+          "sha256": "109db44106f2e8c245b8f7957794b20632271494d502593865c76b96ad759cb7",
+          "sha1": "bcf180c5a41ea7cb3b9795ac8c3bb3d03e305114",
+          "md5": "a8c882528550ae67731452cfbb230911"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "moxy-compiler-ksp-2.2.3-sources.jar",
+          "url": "moxy-compiler-ksp-2.2.3-sources.jar",
+          "size": 14336,
+          "sha512": "6495ac05cc6961fe70156802332522d4200b80664827499c9edbfd3b9032d10dd5d67606ee072c2bd20fbd7b14db40be78b0f95ba54fac7707228ba119ef3b2f",
+          "sha256": "8b4ade0599251dc1109f72d375835760427376e1fb9307acfd2b9f0b33890267",
+          "sha1": "da4eaaacc39b654792f4eb7efd5cd62921908123",
+          "md5": "2108e6875efebcd7529c642a035ff1e4"
+        }
+      ]
+    }
+  ]
+}

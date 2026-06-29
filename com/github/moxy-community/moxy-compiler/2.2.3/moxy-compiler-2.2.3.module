@@ -1,0 +1,114 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.moxy-community",
+    "module": "moxy-compiler",
+    "version": "2.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "moxy-compiler-2.2.3.jar",
+          "url": "moxy-compiler-2.2.3.jar",
+          "size": 89286,
+          "sha512": "88785e50d628689b40dec7d70b66e451c080df21927055e08de975ebb93272f045efcc6f5effa225c7674eb990e1f983869ee14e591f044e2514036e5fe757cd",
+          "sha256": "bcd8d38fbaebf87c4d56b2143670517405a68087b42bac4c744a648143064d47",
+          "sha1": "16d3b4e6621eb3dc7a4e2e0633a8fd645ced8a41",
+          "md5": "335dc1e5b7111674f563edace64611c8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.moxy-community",
+          "module": "moxy",
+          "version": {
+            "requires": "2.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "net.ltgt.gradle.incap",
+          "module": "incap",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "moxy-compiler-2.2.3.jar",
+          "url": "moxy-compiler-2.2.3.jar",
+          "size": 89286,
+          "sha512": "88785e50d628689b40dec7d70b66e451c080df21927055e08de975ebb93272f045efcc6f5effa225c7674eb990e1f983869ee14e591f044e2514036e5fe757cd",
+          "sha256": "bcd8d38fbaebf87c4d56b2143670517405a68087b42bac4c744a648143064d47",
+          "sha1": "16d3b4e6621eb3dc7a4e2e0633a8fd645ced8a41",
+          "md5": "335dc1e5b7111674f563edace64611c8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "moxy-compiler-2.2.3-sources.jar",
+          "url": "moxy-compiler-2.2.3-sources.jar",
+          "size": 28119,
+          "sha512": "715c7ae152cc9223bc1d90ce8d5f6c9dd57b71e43374507d888b757a5afc540c0f1a80ef99942bae01c9544cbf5e6a71ec0c97d33c33b508e3c7833bcd870d26",
+          "sha256": "2110472cee7e6453a6bd09feeb690a55632cceb3c882671f43aca1f8ab28329b",
+          "sha1": "96a4aaa347cf9a151649386e28c1de335d8949f4",
+          "md5": "100aece3870431dcc20c1e04f9cd5128"
+        }
+      ]
+    }
+  ]
+}
