@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.zadarma.pjsip</groupId>
+  <artifactId>pjsip-native</artifactId>
+  <versioning>
+    <latest>1.8.4</latest>
+    <release>1.8.4</release>
+    <versions>
+      <version>1.8.4</version>
+    </versions>
+    <lastUpdated>20260711171437</lastUpdated>
+  </versioning>
+</metadata>
