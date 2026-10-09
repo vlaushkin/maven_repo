@@ -3,8 +3,8 @@
   <groupId>com.zadarma.pjsip</groupId>
   <artifactId>pjsiplib</artifactId>
   <versioning>
-    <latest>1.9.0</latest>
-    <release>1.9.0</release>
+    <latest>1.9.1</latest>
+    <release>1.9.1</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.1</version>
@@ -33,7 +33,8 @@
       <version>1.8.3</version>
       <version>1.8.4</version>
       <version>1.9.0</version>
+      <version>1.9.1</version>
     </versions>
-    <lastUpdated>20261001122414</lastUpdated>
+    <lastUpdated>20261009110818</lastUpdated>
   </versioning>
 </metadata>
