@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.zadarma.pjsip",
+    "module": "pjsiplib",
+    "version": "1.9.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pjsiplib-1.9.3.aar",
+          "url": "pjsiplib-1.9.3.aar",
+          "size": 13518592,
+          "sha512": "fb5e23f980888b7ea20ac751d7c03dba0b6f20bf62440bf47fd1632f8339b9d4c3af6fb66e9706752273cd74baa505dddecedeab8f626117fbdbf96050f8e740",
+          "sha256": "4d3335d068e342a9421417059cfe6fc7065d40b0ac2805b8c640368409f4735f",
+          "sha1": "e4d44865c27eb2678874a2a5e4c953d45905da4b",
+          "md5": "e2ba73467cffd8ea58bdf4a15a9ae923"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pjsiplib-1.9.3.aar",
+          "url": "pjsiplib-1.9.3.aar",
+          "size": 13518592,
+          "sha512": "fb5e23f980888b7ea20ac751d7c03dba0b6f20bf62440bf47fd1632f8339b9d4c3af6fb66e9706752273cd74baa505dddecedeab8f626117fbdbf96050f8e740",
+          "sha256": "4d3335d068e342a9421417059cfe6fc7065d40b0ac2805b8c640368409f4735f",
+          "sha1": "e4d44865c27eb2678874a2a5e4c953d45905da4b",
+          "md5": "e2ba73467cffd8ea58bdf4a15a9ae923"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pjsiplib-1.9.3-sources.jar",
+          "url": "pjsiplib-1.9.3-sources.jar",
+          "size": 393531,
+          "sha512": "68f650b02dc4ab8459ef8066239d2cf91c4a896103137b1a6a1832a8db3f0cb54648de96df8352bbc9f6f844d5cf75e2f98ab959c5ac215c4386ddd7c8ada9c7",
+          "sha256": "99ea2169118831119a0b31a1dcb7fad331082313d7a4b2bd454dc7749d96016b",
+          "sha1": "0df9e273607653d34ccf517ef0cdc279459cb76c",
+          "md5": "218355027701a4676e6a61014e1d82d7"
+        }
+      ]
+    }
+  ]
+}
